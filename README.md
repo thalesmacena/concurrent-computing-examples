@@ -27,10 +27,10 @@ This repository is a list of examples of the implementation of concurrent comput
 
 ## 🧩 Examples
 
-#### Hello World
+#### [Hello World](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/helloWorld)
 First notion of creating threads to create a hello world in multiple threads and present the concept of concurrent computing
 
-#### Increment Array
+#### [Increment Array](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/incrementArray)
 Shows the use of threads to manipulate arrays, increasing the value of each position by 1
 
 ## ✨ Installation
