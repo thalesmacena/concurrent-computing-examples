@@ -16,6 +16,7 @@
 - [📑 About](#-about)
 - [🧩 Examples](#-examples)
     - [Hello World](#hello-world)
+    - [Increment Array](#increment-array)
 - [✨ Installation](#-installation)
 - [🔥 Running](#-running)
   
@@ -28,6 +29,9 @@ This repository is a list of examples of the implementation of concurrent comput
 
 #### Hello World
 First notion of creating threads to create a hello world in multiple threads and present the concept of concurrent computing
+
+#### Increment Array
+Shows the use of threads to manipulate arrays, increasing the value of each position by 1
 
 ## ✨ Installation
 Open a terminal and run the following commands:
