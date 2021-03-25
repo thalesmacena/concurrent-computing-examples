@@ -62,6 +62,6 @@ int main() {
 
   printf("Array incremented correctly \n");
 
-  // disconnect the end of the mother from the end of the program
+  // disconnect the end of the main from the end of the execution
   pthread_exit(NULL);
 }
