@@ -45,4 +45,8 @@ cd concurrent-computing-examples
 ```
 
 ## 🔥 Running
-You can run each example by running its respective .exe file
+You can run each example by running its respective .exe file or build with the command:
+
+```Powershell
+gcc fileName -o exitName -Wall -lpthread
+```
