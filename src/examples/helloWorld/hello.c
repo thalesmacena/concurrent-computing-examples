@@ -33,6 +33,7 @@ int main(void) {
     // create a new thread
     if (pthread_create(&tid[i], NULL, task, (void *)&ident[i]))
       printf("ERRO --pthread_create\n");
+      exit(-1);
   }
 
   // waits for all threads to finish

@@ -27,7 +27,7 @@ This repository is a list of examples of the implementation of concurrent comput
 ## 🧩 Examples
 
 #### Hello World
-First notion of creating threads to create a hello world
+First notion of creating threads to create a hello world in multiple threads and present the concept of concurrent computing
 
 ## ✨ Installation
 Open a terminal and run the following commands:
