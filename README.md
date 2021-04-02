@@ -54,4 +54,5 @@ You can run each example by running its respective .exe file or build with the c
 
 ```Powershell
 gcc fileName -o exitName -Wall -lpthread
+./exitName args
 ```
