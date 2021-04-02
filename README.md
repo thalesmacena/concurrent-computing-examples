@@ -27,6 +27,8 @@
 
 This repository is a list of examples of the implementation of concurrent computing done in C using the POSIX Threads library, built during the discipline of Concurrent Computing at the Federal University of Rio de Janeiro and taught by Prof. [Silvana Rossetto](https://dcc.ufrj.br/~silvana/) (DCC-- UFRJ)
 
+**It is recommended that you use a Linux, macOS or WSL system if you use windows to run and run programs**
+
 ## 🧩 Examples
 
 #### [Hello World](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/helloWorld)
