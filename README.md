@@ -18,6 +18,7 @@
 - [🧩 Examples](#-examples)
     - [Hello World](#hello-world)
     - [Increment Array](#increment-array)
+    - [Matrix multiplication by vector](#matrix-multiplication-by-vector)
 - [✨ Installation](#-installation)
 - [🔥 Running](#-running)
   
@@ -33,6 +34,9 @@ First notion of creating threads to create a hello world in multiple threads and
 
 #### [Increment Array](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/incrementArray)
 Shows the use of threads to manipulate arrays, increasing the value of each position by 1
+
+#### [Matrix multiplication by vector](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/matrixVector)
+Program that performs the multiplication of a matrix by a vector, has a sequential version and versions with different concurrent solutions.
 
 ## ✨ Installation
 Open a terminal and run the following commands:
