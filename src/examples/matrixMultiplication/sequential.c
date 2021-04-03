@@ -16,6 +16,7 @@ int main(int argc, char* argv[]) {
   double start, finish, total;
 
   // Reading and evaluation of input parameters
+  GET_TIME(start);
   if (argc<2) {
     printf("type: %s <Matrix Dimension> \n", argv[0]);
 
@@ -44,7 +45,6 @@ int main(int argc, char* argv[]) {
   }
 
   // Initialization of data structures
-  GET_TIME(start);
   int i,j,k;
 
   for(i = 0; i < dim; i++) {
@@ -65,14 +65,14 @@ int main(int argc, char* argv[]) {
   }
   
   // Validation
-  for(i = 0; i < dim; i++) {
-     for(j = 0; j < dim; j++) {
-      if (exitMatrix[i*dim+j] != dim) {
-        puts("ERROR--Validation");
-        return 4;
-      };
-    }
-  }
+  // for(i = 0; i < dim; i++) {
+  //    for(j = 0; j < dim; j++) {
+  //     if (exitMatrix[i*dim+j] != dim) {
+  //       puts("ERROR--Validation");
+  //       return 4;
+  //     };
+  //   }
+  // }
 
   // Free allocated memory  
   free(mat1);
@@ -81,7 +81,7 @@ int main(int argc, char* argv[]) {
 
   // benchmark
   GET_TIME(finish);
-  total = finish + start;
+  total = finish - start;
   printf("Totaltime took %e seconds\n", total);
 
   return 0;
