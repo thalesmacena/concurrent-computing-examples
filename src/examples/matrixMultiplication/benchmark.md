@@ -15,8 +15,8 @@ N# Threads | Data Init | Thread Execution | Data Free | Total
 **4** | 0.0022480s | 0.3092350s | 0.0001582s | 0.3116412s
 
 ### Performance gain
-N# Threads | Sequential | Concurrent | gain
---- | --- | --- | --- | ---
+N# Threads | Sequential | Concurrent | Gain
+--- | --- | --- | ---
 **1** | 0.8086883s | 0.6613421s | ~1.223 
 **2** | 0.8086883s | 0.3751567s | ~2.156
 **4** | 0.8086883s | 0.3116412s | ~2.595
@@ -34,7 +34,7 @@ N# Threads | Data Init | Thread Execution | Data Free | Total
 **4** | 0.0070187s | 2.5522740s | 0.0002698s | 2.5595620s
 
 ### Performance gain
-N# Threads | Sequential | Concurrent | gain
+N# Threads | Sequential | Concurrent | Gain
 --- | --- | --- | ---
 **1** | 6.6071820s | 5.3561930s | ~1.236 
 **2** | 6.6071820s | 3.2178200s | ~2.053
@@ -46,13 +46,13 @@ Total time os execution is 51.416380 seconds
 
 ### Concurrent
 N# Threads | Data Init | Thread Execution | Data Free | Total
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 **1** | 0.0320750s | 44.408060s | 0.0003312s | 44.440460s
 **2** | 0.0220708s | 25.268670s | 0.0004684s | 25.291210s
 **4** | 0.0219156s | 25.292510s | 0.0003210s | 25.314740s
 
 ### Performance gain
-N# Threads | Sequential | Concurrent | gain
+N# Threads | Sequential | Concurrent | Gain
 --- | --- | --- | ---
 **1** | 51.416380s | 44.440460s | ~1.157 
 **2** | 51.416380s | 25.291210s | ~2.033
