@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>
+#include"../../util/timer.h"
 
 float *mat; // Input matrix
 float *vet; // Input vector
@@ -35,6 +36,9 @@ int main(int argc, char* argv[]) {
 
   // local thread id and dimension
   tArgs *args;
+
+  // Time variables
+  double start, finish, elapsed;
 
   // Reading and evaluation of input parameters
   if (argc<3) {
@@ -81,6 +85,8 @@ int main(int argc, char* argv[]) {
   }
 
   // Multiplication of the matrix by the vector
+  GET_TIME(start);
+
   // Structures Allocation
   tid = (pthread_t*) malloc(sizeof(pthread_t)*nThreads);
   if (tid==NULL) {
@@ -127,6 +133,10 @@ int main(int argc, char* argv[]) {
   // }
   // puts("");
   
+  GET_TIME(finish);
+  
+  elapsed = finish - start;
+  printf("multiplication of the matrix by the vector took %e seconds\n", elapsed);
 
   puts("Exit Vector:");
   for(i = 0; i < dim; i++) {
