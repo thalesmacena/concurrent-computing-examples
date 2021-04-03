@@ -49,6 +49,7 @@ int main(int argc, char* argv[]) {
   double start, finish, total, dataInit, threadExecute, dataFree;
 
   // Reading and evaluation of input parameters
+  GET_TIME(start);
   if (argc<3) {
     printf("type: %s <Matrix Dimension> <number of threads> \n", argv[0]);
 
@@ -81,7 +82,6 @@ int main(int argc, char* argv[]) {
   }
 
   // Initialization of data structures
-  GET_TIME(start);
   int i;
   int j;
   for(i = 0; i < dim; i++) {
