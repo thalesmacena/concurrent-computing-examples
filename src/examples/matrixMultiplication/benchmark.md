@@ -59,3 +59,10 @@ N# Threads | Sequential | Concurrent | Gain
 **4** | 51.416380s | 25.314740s | ~2.031
 
 ## Conclusion
+To my surprise even the implementation by threads using a single thread has already presented a performance gain, as expected when we use 2 or more threads the performance gain gets to double, using other types of optimization, such as -o3, we can increase this performance gain even more. However, the difference in gain between 2 and 4 threads does not represent reality, in fact, I imagine that it is a retrition of the CPU that does not support 4 parallel threads and should be interleaving the contexts.
+
+Using the equation `Tsequential / (ts + tp (P))` we can obtain the following values for the gain of an execution with 4 threads:
+
+500x500 = (0.8086883 / (0.0024062 + (0.6588997/4))) = ~4.838
+1000x1000 = (6.6071820 / (0.0072796 + (5.3489130/4))) = ~4.914
+2000x2000 = (51.416380 / (0.0222366 + (44.408060/4))) = ~4.622
