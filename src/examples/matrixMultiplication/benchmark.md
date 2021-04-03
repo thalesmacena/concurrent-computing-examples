@@ -64,5 +64,7 @@ To my surprise even the implementation by threads using a single thread has alre
 Using the equation `Tsequential / (ts + tp (P))` we can obtain the following values for the gain of an execution with 4 threads:
 
 500x500 = (0.8086883 / (0.0024062 + (0.6588997/4))) = ~4.838
+
 1000x1000 = (6.6071820 / (0.0072796 + (5.3489130/4))) = ~4.914
+
 2000x2000 = (51.416380 / (0.0222366 + (44.408060/4))) = ~4.622
