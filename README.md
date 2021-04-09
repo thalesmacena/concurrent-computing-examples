@@ -21,6 +21,7 @@
     - [Matrix multiplication by vector](#matrix-multiplication-by-vector)
     - [Matrix multiplication by Matrix](#matrix-multiplication-by-matrix)
     - [Array reduce sum](#array-reduce-sum)
+    - [Pi Aprox](#pi-aprox)
 - [✨ Installation](#-installation)
 - [🔥 Running](#-running)
   
@@ -46,6 +47,9 @@ Program that performs the multiplication of a matrix by a vector, has a sequenti
 Program that performs the multiplication of a square matrix by a square matrix, has a sequential version and a concurrent version. In the folder you will also find a [benchmark](https://github.com/thalesmacena/concurrent-computing-examples/blob/main/src/examples/matrixMultiplication/benchmark.md) analysis on the advantages of a concurrent approach.
 
 #### [Array reduce sum](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/arrayReduce)
+Program that traverses an array of double and adds their values
+
+#### [Pi Aprox](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/piAprox)
 Program that traverses an array of double and adds their values
 
 ## ✨ Installation

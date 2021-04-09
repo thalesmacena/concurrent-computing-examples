@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>
-#include"../../util/timer.h"
+#include "../../util/timer.h"
 
 float *mat; // Input matrix
 float *vet; // Input vector
