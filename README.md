@@ -43,7 +43,7 @@ Shows the use of threads to manipulate arrays, increasing the value of each posi
 Program that performs the multiplication of a matrix by a vector, has a sequential version and versions with different concurrent solutions.
 
 #### [Matrix multiplication by Matrix](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/matrixMultiplication)
-Program that performs the multiplication of a square matrix by a square matrix, has a sequential version and a concurrent version. In the folder you will also find a benchmark analysis on the advantages of a concurrent approach.
+Program that performs the multiplication of a square matrix by a square matrix, has a sequential version and a concurrent version. In the folder you will also find a [benchmark](https://github.com/thalesmacena/concurrent-computing-examples/blob/main/src/examples/matrixMultiplication/benchmark.md) analysis on the advantages of a concurrent approach.
 
 #### [Array reduce sum](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/arrayReduce)
 Program that traverses an array of double and adds their values
