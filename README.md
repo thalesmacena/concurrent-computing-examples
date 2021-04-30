@@ -50,7 +50,7 @@ Program that performs the multiplication of a square matrix by a square matrix, 
 Program that traverses an array of double and adds their values
 
 #### [Pi Aprox](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/piAprox)
-Program that traverses an array of double and adds their values
+Program that use threads to calculate a aproximation to pi value
 
 ## ✨ Installation
 Open a terminal and run the following commands:
