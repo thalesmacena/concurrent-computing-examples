@@ -22,6 +22,10 @@
     - [Matrix multiplication by Matrix](#matrix-multiplication-by-matrix)
     - [Array reduce sum](#array-reduce-sum)
     - [Pi Aprox](#pi-aprox)
+    - [Prefix Sum](#prefix-sum)
+    - [Java Hello World](#java-hello-world)
+    - [Java Increment Variable](#java-increment-variable)
+    - [Java Array Sum](#java-array-sum)
 - [✨ Installation](#-installation)
 - [🔥 Running](#-running)
   
@@ -51,6 +55,18 @@ Program that traverses an array of double and adds their values
 
 #### [Pi Aprox](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/piAprox)
 Program that use threads to calculate a aproximation to pi value
+
+#### [Prefix Sum](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/prefixSum)
+Program that use threads to calculate array prefix sum
+
+#### [Java Hello World](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/javaHelloWorld)
+First notion of creating threads in Java to create a hello world in multiple threads and present the concept of concurrent computing
+
+#### [Java Increment Variable](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/javaIncrementVariable)
+Program that use threads to calculate increment a variable
+
+#### [Java Array Sum](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/javaArraySum)
+Shows the use of threads in Java to manipulate arrays, increasing the value of each position by 1
 
 ## ✨ Installation
 Open a terminal and run the following commands:
