@@ -68,6 +68,9 @@ Program that use threads to calculate increment a variable
 #### [Java Array Sum](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/javaArraySum)
 Shows the use of threads in Java to manipulate arrays, increasing the value of each position by 1
 
+#### [Semaphore](https://github.com/thalesmacena/concurrent-computing-examples/tree/main/src/examples/semaphore)
+Shows the semaphore example in threads
+
 ## ✨ Installation
 Open a terminal and run the following commands:
 
