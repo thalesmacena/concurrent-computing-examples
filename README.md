@@ -83,9 +83,20 @@ cd concurrent-computing-examples
 ```
 
 ## 🔥 Running
+You can open powershell as wsl with the command:
+```Powershell
+wsl code .
+```
+
 You can run each example by running its respective .exe file or build with the command:
 
 ```Powershell
 gcc fileName -o exitName -Wall -lpthread
 ./exitName args
+```
+
+You can compile and run with java with the following commands:
+```Powershell
+javac Main.java
+java Main
 ```
